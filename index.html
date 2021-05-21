@@ -1,24 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <body>
-        <p>
-            most night that i cant sleep
-        </p>
-        <p>
-            it because i know that youll be there
-        </p>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Author" content="Antoine RJ Wright" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+	<title>𝔰𝔱𝔦𝔩𝔩 𝔣𝔯𝔢𝔢</title>
+	<link rel="stylesheet" type="text/css" href="stillfree.css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+<header>
+	<h1><a href="https://www.instagram.com/huertamor/" title="𝔰𝔱𝔦𝔩𝔩 𝔣𝔯𝔢𝔢">𝔰𝔱𝔦𝔩𝔩 𝔣𝔯𝔢𝔢</a></h1>
+	<details class="book-description">
+		<summary></summary>
+	</details>
+	<nav class="controls">
+		<p><a class="show-all" title="Click to show all poems">Show All Poems</a> | <a class="hide-all" title="Click to hide all poems">Hide All Poems</a></p>
+		<script>$('a.show-all').click(function () {$('details.poem-body').show("fast");});</script>
+		<script>$('a.hide-all').click(function () {$('details.poem-body').hide("fast");});</script>
+	</nav>
+</header>
 
-        <p>
-            smiling
-        </p>
-        
-        <p>happy
-            
-        </p>
-        <p>horny
-        </p>
-        <p>
-            me too
-        </p>
-    </body>
+<!-- template code for each poem entry -->
+<section class="poem-container">
+	<h2 class="ptitle" id="poem-title" title="{poem title}">sleepy head</h2>
+	<details class="poem-body poem-title">
+		<summary class="description">
+			wishing i didnt see you in my dreams
+
+		</summary>
+		<p>
+			most nights that i cant sleep <br />
+            its because you are waiting for me <br />
+            smiling <br />
+		</p>
+		<time class="date_duration"><abbr class="dtend" title="2011-05-14, 12:00:00 T">2021*5*21</abbr></time>
+		<article class="assoc-url">
+			<ul>
+				<li><a href="" class="url">adsadasd</a></li>
+			</ul>
+		</article>
+	</details>
+	<script>$('#poem-title').click(function () {$('details.poem-title').toggleClass('poem-body-show, poem-body');$('#poem-title').toggleClass('active');});</script>
+	<script>$('.close-poem-title').click(function () {$('details.poem-title').hide("fast");$('#poem-title').toggleClass('active');});</script>
+</section>
+
+
+<footer>
+	<p><em>Things change and thats okay</em></p>
+	<p><a href="https://twitter.com/rubbertoehurts/">$$$$$$$$$</a></p>
+</footer>
+</body>
 </html>
